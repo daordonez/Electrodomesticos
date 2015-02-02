@@ -12,5 +12,11 @@ package electrodomesticos;
 public class Principal {
     public static void main(String[] args) {
         //Incio del programa
+        
+        Televisor tvSalon = new Televisor("Salon", "LG", 23);
+        
+        tvSalon.setPlasmaSN(true);
+        
+        tvSalon.Mostrar();
     }
 }

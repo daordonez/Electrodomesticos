@@ -39,11 +39,12 @@ public class Electrodomesticos {
     }
 
     //constructor 3 con lugar de casa, uso y estado
-    public Electrodomesticos(String nombre, String marca, int antiguedad, String lugarCasa, String uso, String estado) {
+    public Electrodomesticos(String nombre, String marca, int antiguedad, String lugarCasa, String uso, String estado, int consumo) {
         this(nombre, marca, antiguedad);
         this.lugarCasa = lugarCasa;
         this.uso = uso;
         this.estado = estado;
+        this.consumo = consumo;
     }
     
    
