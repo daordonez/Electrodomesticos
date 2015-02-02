@@ -21,26 +21,32 @@ public class Electrodomesticos {
     private String estado = null;
 
     //constructores
-    //Constructor por defecto simple
-    public Electrodomesticos(String nombre, String marca, int antiguedad) {
+     //Constructor simple
+    public Electrodomesticos(String nombre, String marca){
         this.nombre = nombre;
         this.marca = marca;
-        this.antiguedad = antiguedad;
         //Constructor por defecto, inicializa resto
         this.consumo = 0;
         this.lugarCasa = null;
         this.uso = null;
         this.estado = null;
     }
+    //Constructor 2 
+    public Electrodomesticos(String nombre, String marca, int antiguedad) {
+        this(nombre, marca);
+        this.antiguedad = antiguedad;
+        
+    }
 
-    //Segundo constructor con lugar de casa, uso y estado
-
+    //constructor 3 con lugar de casa, uso y estado
     public Electrodomesticos(String nombre, String marca, int antiguedad, String lugarCasa, String uso, String estado) {
         this(nombre, marca, antiguedad);
         this.lugarCasa = lugarCasa;
         this.uso = uso;
         this.estado = estado;
     }
+    
+   
 
     //Intefaz - Modificadores 
     public String getNombre() {
