@@ -16,7 +16,7 @@ public class Principal {
         Televisor tvSalon = new Televisor("Salon", "LG", 23);
         
         tvSalon.setPlasmaSN(true);
-        
+        tvSalon.setEstado("Bueno");
         tvSalon.Mostrar();
     }
 }

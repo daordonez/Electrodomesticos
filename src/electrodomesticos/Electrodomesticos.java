@@ -15,10 +15,10 @@ public class Electrodomesticos {
     private String nombre;
     private String marca;
     private int antiguedad;
-    private int consumo = 0;
-    private String lugarCasa = null;
-    private String uso = null;
-    private String estado = null;
+    private int consumo ;
+    private String lugarCasa ;
+    private String uso ;
+    private String estado ;
 
     //constructores
      //Constructor simple
