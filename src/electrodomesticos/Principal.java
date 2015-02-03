@@ -16,7 +16,13 @@ public class Principal {
         Televisor tvSalon = new Televisor("Salon", "LG", 23);
         
         tvSalon.setPlasmaSN(true);
-        tvSalon.setEstado("Bueno");
+        
+        //Nuevo electrodomestico
+        
+        Electrodomesticos licuadora1 = new  
+        Electrodomesticos("Licuadora", "Philips", 3, "Cocina", "Alimentos", "Bueno", 100);
+        
+        licuadora1.mostrar();
         tvSalon.Mostrar();
     }
 }
