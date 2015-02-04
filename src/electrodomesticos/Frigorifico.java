@@ -34,5 +34,46 @@ public class Frigorifico extends Electrodomesticos{
         this.dimensiones = dim;
         this.materialConst = matConst;
     }
+
+    public int getFrigorias() {
+        return frigorias;
+    }
+
+    public void setFrigorias(int frigorias) {
+        this.frigorias = frigorias;
+    }
+
+    public int getCapacLitros() {
+        return capacLitros;
+    }
+
+    public void setCapacLitros(int capacLitros) {
+        this.capacLitros = capacLitros;
+    }
+
+    public boolean isCongeladorSN() {
+        return congeladorSN;
+    }
+
+    public void setCongeladorSN(boolean congeladorSN) {
+        this.congeladorSN = congeladorSN;
+    }
+
+    public String getDimensiones() {
+        return dimensiones;
+    }
+
+    public void setDimensiones(String dimensiones) {
+        this.dimensiones = dimensiones;
+    }
+
+    public String getMaterialConst() {
+        return materialConst;
+    }
+
+    public void setMaterialConst(String materialConst) {
+        this.materialConst = materialConst;
+    }
+    
     
 }
