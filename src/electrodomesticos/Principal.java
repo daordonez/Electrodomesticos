@@ -24,5 +24,9 @@ public class Principal {
         
         licuadora1.mostrar();
         tvSalon.Mostrar();
+        
+        Frigorifico nevera = new Frigorifico("Cocina", "Fagor", 3000, 200);
+        
+        nevera.mostrar();
     }
 }
