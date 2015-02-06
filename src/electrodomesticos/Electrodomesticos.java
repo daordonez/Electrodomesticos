@@ -11,7 +11,10 @@ package electrodomesticos;
  */
 public class Electrodomesticos {
 
+    //Define los tipos de los que puede ser la clase energetica, cualquiera que no sea dará error
+    public enum ClaseEnergetica{A,B,C,D,E,F};
     //Atributos electrodomesticos de interés
+    private ClaseEnergetica claseEnergetica;
     private String nombre;
     private String marca;
     private int antiguedad;
