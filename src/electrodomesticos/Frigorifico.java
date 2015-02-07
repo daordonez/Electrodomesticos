@@ -27,7 +27,17 @@ public class Frigorifico extends Electrodomesticos{
         this.dimensiones = null;
         this.materialConst = null;
     }
-    //Constructor detallado
+    /**
+     * Constructor detallado de clase frigorifico, en el que se utilazan todos los atributos de la clase y los herdeados
+     * de la clase Superior (Electrodomesticos)
+     * @param nom Nombre 
+     * @param mrc Marca del frigorifico
+     * @param frigo Frigorias 
+     * @param capac Capacidad en valor entero
+     * @param congel Dispone o no de congelado (True or False)
+     * @param dim Dimensiones expresadas en AnchoXAltura
+     * @param matConst Material exterior de construcción
+     */
     public Frigorifico(String nom,String mrc,int frigo, int capac, boolean  congel, String dim,String matConst){
         this(nom, mrc, frigo, capac);
         this.congeladorSN = congel;
